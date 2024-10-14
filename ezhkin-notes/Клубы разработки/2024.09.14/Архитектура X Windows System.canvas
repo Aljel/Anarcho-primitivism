@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"7ea8387d6f6fdd31","type":"text","text":"X Server","x":-140,"y":-240,"width":250,"height":60},
+		{"id":"17497a9dc4675e1c","type":"text","text":"X Client","x":-226,"y":-98,"width":109,"height":60},
+		{"id":"b03be45e5761b600","type":"text","text":"X Client","x":-69,"y":-98,"width":109,"height":60},
+		{"id":"e88e89cc5ef76f0a","type":"text","text":"X Client","x":80,"y":-98,"width":109,"height":60},
+		{"id":"27f5f740bafb363e","type":"text","text":"Оконный менеджер","x":189,"y":-240,"width":204,"height":60},
+		{"id":"c6d0841959d5350a","type":"text","text":"Ввод","x":-140,"y":-340,"width":90,"height":29},
+		{"id":"c698f8a3331626df","type":"text","text":"Вывод","x":9,"y":-340,"width":101,"height":29},
+		{"id":"9f0bd3469b8f87df","type":"text","text":"X Client - приложение, взаимодействующее с \nX Server","x":-396,"y":-340,"width":225,"height":93}
+	],
+	"edges":[
+		{"id":"ce592bf62313f5c1","fromNode":"7ea8387d6f6fdd31","fromSide":"right","toNode":"27f5f740bafb363e","toSide":"left","fromEnd":"arrow"},
+		{"id":"c01b7b7f6668724a","fromNode":"7ea8387d6f6fdd31","fromSide":"bottom","toNode":"17497a9dc4675e1c","toSide":"top","fromEnd":"arrow"},
+		{"id":"15aaa0a9b9668274","fromNode":"7ea8387d6f6fdd31","fromSide":"bottom","toNode":"b03be45e5761b600","toSide":"top","fromEnd":"arrow"},
+		{"id":"7b47ed86ab585264","fromNode":"7ea8387d6f6fdd31","fromSide":"bottom","toNode":"e88e89cc5ef76f0a","toSide":"top","fromEnd":"arrow"},
+		{"id":"0b8b9e920671eb7c","fromNode":"c6d0841959d5350a","fromSide":"bottom","toNode":"7ea8387d6f6fdd31","toSide":"top"},
+		{"id":"40206b2eb081d57e","fromNode":"7ea8387d6f6fdd31","fromSide":"top","toNode":"c698f8a3331626df","toSide":"bottom"}
+	]
+}
