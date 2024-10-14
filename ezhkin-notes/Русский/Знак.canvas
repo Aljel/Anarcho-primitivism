@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"0294e73ed3810508","type":"text","text":"Знак","x":-255,"y":-620,"width":250,"height":50},
+		{"id":"1ac113d9848b703a","type":"text","text":"Интерпретатор (субъект)","x":-255,"y":-526,"width":250,"height":60},
+		{"id":"ee8a7523bd29be61","type":"text","text":"Содержание (семантика, значение)","x":-95,"y":-400,"width":250,"height":76},
+		{"id":"4422581a41a4a067","type":"text","text":"Форма (материальна, воспринимается органами чувств)","x":-415,"y":-400,"width":265,"height":76},
+		{"id":"7823b9e56e96dab5","type":"text","text":"Семиозис - процесс, при котором нечно начинает функционировать как знак.","x":-540,"y":-602,"width":250,"height":117}
+	],
+	"edges":[
+		{"id":"5b2fd3a25691d0ac","fromNode":"ee8a7523bd29be61","fromSide":"left","toNode":"4422581a41a4a067","toSide":"right","toEnd":"none"},
+		{"id":"2a635b04c7571f7d","fromNode":"1ac113d9848b703a","fromSide":"bottom","toNode":"4422581a41a4a067","toSide":"top","toEnd":"none"},
+		{"id":"672c6ade7303976c","fromNode":"1ac113d9848b703a","fromSide":"bottom","toNode":"ee8a7523bd29be61","toSide":"top","toEnd":"none"}
+	]
+}
