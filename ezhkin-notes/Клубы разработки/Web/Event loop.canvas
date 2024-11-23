@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"8fd6f1dbf5649194","type":"group","x":-540,"y":-440,"width":400,"height":400,"label":"Call Stack"},
+		{"id":"642492f02e2c703d","type":"group","x":-40,"y":-440,"width":400,"height":180,"label":"Macro queue"},
+		{"id":"76638769c54e11bb","type":"group","x":-40,"y":-220,"width":400,"height":180,"label":"Micro queue"},
+		{"id":"6e6efe3e112e6d9e","type":"text","text":"P1","x":-20,"y":-200,"width":73,"height":31},
+		{"id":"4c9fe10c42476368","type":"text","text":"```js\n() => ...\n```","x":-20,"y":-420,"width":176,"height":56},
+		{"id":"2fe2cbd80c406c8d","type":"text","text":"P2","x":83,"y":-200,"width":73,"height":31},
+		{"id":"45b26da52feeb170","type":"text","text":"Output:\n1\npromise 1\npromise 2\nsetTimeout 1\npromise setTimeout","x":-760,"y":-440,"width":200,"height":220}
+	],
+	"edges":[]
+}
