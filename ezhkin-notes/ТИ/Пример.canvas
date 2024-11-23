@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"26701663d1a8cf0d","type":"group","x":-523,"y":-288,"width":1047,"height":576,"label":"Пример"},
+		{"id":"1d7f28fe6f41c110","type":"text","text":"E","x":-497,"y":177,"width":250,"height":60},
+		{"id":"e6ffd60125740860","type":"text","text":"OO","x":-372,"y":-127,"width":250,"height":60},
+		{"id":"5fd92d6f04f6033f","type":"text","text":"OOO","x":-247,"y":-263,"width":250,"height":60},
+		{"id":"34a9f78726d6ed34","type":"text","text":"E","x":-122,"y":132,"width":250,"height":60},
+		{"id":"43bf5671d710c0c5","type":"text","text":"1) O -> E\n2) OO -> E","x":248,"y":-203,"width":250,"height":70},
+		{"id":"a9eeeb9c84b62f2d","type":"text","text":"O","x":-29,"y":-132,"width":250,"height":60},
+		{"id":"67326f275b0f14be","type":"text","text":"E","x":63,"y":11,"width":250,"height":60},
+		{"id":"61180ae95feb4f7a","type":"text","text":"Нужно писать абсолютно все решения, даже если они схожи","x":181,"y":132,"width":250,"height":131},
+		{"id":"0b0d65a148f759ad","type":"text","text":"Ответ:\n3\n111\n12\n21","x":373,"y":-67,"width":116,"height":165},
+		{"id":"47e759be249d0f06","type":"text","text":"O","x":-497,"y":16,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"8370ab7ad763eda1","fromNode":"47e759be249d0f06","fromSide":"bottom","toNode":"1d7f28fe6f41c110","toSide":"top","label":"1"},
+		{"id":"7ddd55caff0c9dcd","fromNode":"e6ffd60125740860","fromSide":"bottom","toNode":"34a9f78726d6ed34","toSide":"top","label":"2"},
+		{"id":"8298743990c052d7","fromNode":"e6ffd60125740860","fromSide":"bottom","toNode":"47e759be249d0f06","toSide":"top","label":"1"},
+		{"id":"bf8802c5089507b2","fromNode":"5fd92d6f04f6033f","fromSide":"bottom","toNode":"e6ffd60125740860","toSide":"top","label":"1"},
+		{"id":"4e9270b016fbc9c4","fromNode":"5fd92d6f04f6033f","fromSide":"bottom","toNode":"a9eeeb9c84b62f2d","toSide":"top","label":"2"},
+		{"id":"c6c0d8e829fbb5d5","fromNode":"a9eeeb9c84b62f2d","fromSide":"bottom","toNode":"67326f275b0f14be","toSide":"top","label":"1"}
+	]
+}
